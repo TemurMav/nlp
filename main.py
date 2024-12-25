@@ -15,7 +15,7 @@ from sklearn.metrics import roc_auc_score, roc_curve, accuracy_score
 import matplotlib.pyplot as plt
 warnings.filterwarnings('ignore')
 
-data = pd.read_csv("drive/MyDrive/labeled.csv")
+data = pd.read_csv("nlp/labeled.csv")
 batch = data[:2000]
 
 # For DistilBERT:
